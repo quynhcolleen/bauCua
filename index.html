@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Bầu Cua Tôm Cá</title>
+</head>
+
+<body>
+  <div class="leftSide">
+    <p class="tieuDe">BAU TOM<br>CUA CA!!!</p>
+    <div class="matDia">
+      <img src="./img/matDia.png" alt="">
+    </div>
+    <div class="xucXac">
+      <div id="hoiCham">
+      <img src="./img/hoiCham.png" alt="">
+      <img src="./img/hoiCham.png" alt="">
+      <img src="./img/hoiCham.png" alt="">
+    </div>
+    </div>
+    <button class="xuc" onclick="roll()">LÊN LÀ LÊN LÀ LÊN</button>
+  </div>
+  <div class="nen">
+    <div class="hang1">
+      <div class="choDatCuoc">
+        <img src="./img/1.png" alt="nai">
+        <input name="chonValue" id="chonGiong-1" value="0" readonly>
+        <div class="buttonSoLuong">
+          <button class="soLuongThu" onclick="increment(1)">+</button>
+          <button class="soLuongThu" onclick="decrement(1)">-</button>
+        </div>
+      </div>
+      <div class="choDatCuoc">
+        <img src="./img/2.png" alt="bau">
+        <input name="chonValue" id="chonGiong-2" value="0" readonly>
+        <div class="buttonSoLuong">
+          <button class="soLuongThu" onclick="increment(2)">+</button>
+          <button class="soLuongThu" onclick="decrement(2)">-</button>
+        </div>
+      </div>
+      <div class="choDatCuoc">
+        <img src="./img/3.png" alt="ga">
+        <input name="chonValue" id="chonGiong-3" value="0" readonly>
+        <div class="buttonSoLuong">
+          <button class="soLuongThu" onclick="increment(3)">+</button>
+          <button class="soLuongThu" onclick="decrement(3)">-</button>
+        </div>
+      </div>
+    </div class="choDatCuoc">
+    <div class="hang2">
+      <div class="choDatCuoc">
+        <img src="./img/4.png" alt="ca">
+        <input name="chonValue" id="chonGiong-4" value="0" readonly>
+        <div class="buttonSoLuong">
+          <button class="soLuongThu" onclick="increment(4)">+</button>
+          <button class="soLuongThu" onclick="decrement(4)">-</button>
+        </div>
+      </div>
+      <div class="choDatCuoc">
+        <img src="./img/5.png" alt="cua">
+        <input name="chonValue" id="chonGiong-5" value="0" readonly>
+        <div class="buttonSoLuong">
+          <button class="soLuongThu" onclick="increment(5)">+</button>
+          <button class="soLuongThu" onclick="decrement(5)">-</button>
+        </div>
+      </div>
+      <div class="choDatCuoc">
+        <img src="./img/6.png" alt="tom">
+        <input name="chonValue" id="chonGiong-6" value="0" readonly>
+        <div class="buttonSoLuong">
+          <button class="soLuongThu" onclick="increment(6)">+</button>
+          <button class="soLuongThu" onclick="decrement(6)">-</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
